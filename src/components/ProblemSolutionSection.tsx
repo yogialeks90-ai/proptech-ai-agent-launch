@@ -1,5 +1,6 @@
 import { AlertTriangle, CheckCircle, Clock, Globe, TrendingDown, Users } from "lucide-react";
 import aiPhoneInterface from "@/assets/ai-phone-interface.jpg";
+import automationHero from "@/assets/automation-hero.jpg";
 
 const ProblemSolutionSection = () => {
   const problems = [
@@ -53,6 +54,17 @@ const ProblemSolutionSection = () => {
   return (
     <section className="section-padding bg-background-soft">
       <div className="container-custom">
+        {/* Hero Image */}
+        <div className="text-center mb-16">
+          <div className="relative overflow-hidden rounded-xl shadow-hero mb-12">
+            <img
+              src={automationHero}
+              alt="Автоматизация для брокеров и агентств недвижимости"
+              className="w-full h-auto object-cover"
+            />
+          </div>
+        </div>
+
         {/* Problems Section */}
         <div className="text-center mb-16">
           <h2 className="text-4xl lg:text-5xl font-bold text-primary mb-6">
