@@ -52,7 +52,7 @@ const ProblemSolutionSection = () => {
   ];
 
   return (
-    <section className="section-padding bg-background-soft">
+    <section id="about" className="section-padding bg-background-soft">
       <div className="container-custom">
         {/* Hero Image */}
         <div className="text-center mb-16">
